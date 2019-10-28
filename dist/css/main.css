@@ -109,8 +109,7 @@ a[class^='btn-']:active {
   background: #ffbc00;
   overflow: hidden; }
   .item-image {
-    transition: transform 0.5s;
-    transform-origin: 0 0; }
+    transition: transform 0.5s; }
   .item::after {
     content: '';
     position: absolute;
@@ -318,6 +317,8 @@ img {
     justify-content: space-between;
     height: 5rem;
     align-items: center; }
+    #main-footer .footer-content .social a {
+      color: #fff; }
     #main-footer .footer-content .social .fab {
       margin-right: 1rem;
       border: 2px #fff solid;
