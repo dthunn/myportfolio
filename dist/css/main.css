@@ -110,6 +110,8 @@ a[class^='btn-']:active {
   overflow: hidden; }
   .item-image {
     transition: transform 0.5s; }
+    .item-image .img-cover {
+      object-fit: cover; }
   .item::after {
     content: '';
     position: absolute;
@@ -267,7 +269,7 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-template-areas: 'name email' 'subject phone' 'message message';
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
@@ -364,7 +366,7 @@ img {
     height: 10rem;
     background-position: center center; }
   #contact-a .text-fields {
-    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
   #contact-a form .btn-dark {
     width: 100%; } }
 
