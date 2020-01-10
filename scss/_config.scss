@@ -1,16 +1,21 @@
 // Variables
 $website-width: 1280px;
-$main-color: #ffbc00;
+$main-color: #e6a904;
 $light-color: #f4f4f4;
 $medium-color: #ccc;
-$dark-color: rgb(34, 34, 34);
-$bg-image: url('../img/omahaHome.jpg');
+$dark-color: #104270;
+$bg-image: linear-gradient(
+    to right bottom,
+    rgba(#228bb4, 0.8),
+    rgba(#02417c, 0.9)
+  ),
+  url('../img/omahaCopy.jpeg');
 
 // Set Text Color
 @function set-text-color($color) {
-    @if (lightness($color) > 50) {
-        @return #000;
-    } @else {
-        @return #fff;
-    }
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
 }

@@ -1,4 +1,12 @@
+// For Padding on Page
+@media (max-width: 1000px) {
+  body {
+    padding: 0;
+  }
+}
+
 // Tablets and smaller
+
 @media (max-width: 800px) {
   #header-home {
     height: 30rem;

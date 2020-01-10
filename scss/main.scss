@@ -12,6 +12,8 @@ body {
   font-family: 'Dosis', sans-serif;
   line-height: 1.6;
   background: #fff;
+  color: rgb(0, 54, 99);
+  padding: 1rem;
 }
 
 a {
@@ -159,6 +161,7 @@ img {
       .message-input {
         grid-area: message;
         height: 100px;
+        border: 1px solid lightgrey;
       }
 
       .text-input {
@@ -167,7 +170,8 @@ img {
     }
     .form-container {
       max-width: 600px;
-      margin: auto;
+      margin: 0 auto;
+      margin-bottom: 3rem;
     }
     button[type='submit'] {
       border-radius: 0;
@@ -199,7 +203,7 @@ img {
 
 // Footer
 #main-footer {
-  background: $dark-color;
+  background: #104270;
   color: #fff;
   height: 5rem;
 
@@ -239,4 +243,8 @@ img {
 
 .klogo {
   transform: scale(1.2);
+}
+
+.contact-title {
+  margin-top: 3rem;
 }
