@@ -63,3 +63,9 @@ function init() {
   // Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
+
+//after window is loaded completely
+window.onload = function() {
+  //hide the preloader
+  document.querySelector('.loader-wrapper').style.display = 'none';
+};
