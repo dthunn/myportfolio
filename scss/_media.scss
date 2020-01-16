@@ -22,10 +22,6 @@
     flex-direction: column;
     align-items: center;
 
-    // ul {
-    //   margin-left: 1rem;
-    // }
-
     li {
       padding: 1rem;
     }
@@ -71,13 +67,8 @@
   // Contact
   #contact {
     &-a {
-      .text-fields {
-        grid-template-areas:
-          'name'
-          'subject'
-          'email'
-          'phone'
-          'message';
+      .text-input {
+        width: 93%;
       }
       form .btn-dark {
         width: 100%;

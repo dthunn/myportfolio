@@ -30,7 +30,7 @@ input[class^='btn-']:hover {
   border-radius: 10px; }
 
 a[class^='btn-']:active {
-  background-color: #ad3201;
+  background-color: #b10101;
   color: #fff; }
 
 .bg-main {
@@ -268,40 +268,38 @@ img {
     color: #e6a904;
     padding-bottom: 0.4rem; }
 
-#contact-a .text-fields {
-  display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message';
-  grid-gap: 1.2rem;
-  margin-bottom: 1.2rem; }
-  #contact-a .text-fields .name-input {
-    grid-area: name;
-    border-radius: 5px;
-    border: 1px solid lightgrey; }
-  #contact-a .text-fields .subject-input {
-    grid-area: subject; }
-  #contact-a .text-fields .email-input {
-    grid-area: email; }
-  #contact-a .text-fields .phone-input {
-    grid-area: phone; }
-  #contact-a .text-fields .message-input {
-    grid-area: message;
-    height: 100px;
-    border: 1px solid lightgrey; }
-  #contact-a .text-fields .text-input {
-    padding: 0.5rem 1rem; }
+#contact-a .contact-container {
+  max-width: 500px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 3px; }
 
-#contact-a .form-container {
-  max-width: 600px;
-  margin: 0 auto;
-  margin-bottom: 3rem; }
+#contact-a .label {
+  text-align: center;
+  color: black; }
 
-#contact-a button[type='submit'] {
-  border-radius: 0;
-  width: 25%; }
+#contact-a input:focus {
+  outline: none;
+  border-bottom: 4px solid #e6a904; }
 
-#contact-a button[type='submit']:active {
-  background: #ad3201;
-  border: none; }
+#contact-a .text-input {
+  display: block;
+  margin: 13px auto;
+  width: 70%;
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  border-radius: 5px;
+  font-size: 14px; }
+
+#contact-a .form-button {
+  margin-top: 20px;
+  margin-bottom: 35px;
+  width: 30%;
+  font-size: 14px;
+  padding: 10px; }
+  #contact-a .form-button:active, #contact-a .form-button:focus {
+    outline: none; }
+  #contact-a .form-button:active {
+    background-color: #b10101; }
 
 #contact-b .contact-info {
   display: grid;
@@ -374,8 +372,8 @@ img {
   #header-inner {
     height: 10rem;
     background-position: center center; }
-  #contact-a .text-fields {
-    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+  #contact-a .text-input {
+    width: 93%; }
   #contact-a form .btn-dark {
     width: 100%; } }
 
