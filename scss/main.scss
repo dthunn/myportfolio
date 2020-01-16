@@ -148,6 +148,8 @@ img {
       // Grid Areas
       .name-input {
         grid-area: name;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
       }
       .subject-input {
         grid-area: subject;

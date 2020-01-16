@@ -101,7 +101,6 @@ a[class^='btn-']:active {
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
   grid-gap: 1rem; }
 
 .item {
@@ -275,7 +274,9 @@ img {
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
-    grid-area: name; }
+    grid-area: name;
+    border-radius: 5px;
+    border: 1px solid lightgrey; }
   #contact-a .text-fields .subject-input {
     grid-area: subject; }
   #contact-a .text-fields .email-input {
