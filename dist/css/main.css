@@ -270,14 +270,15 @@ img {
 
 #contact-a .contact-container {
   max-width: 500px;
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
   border-radius: 3px; }
 
 #contact-a .label {
   text-align: center;
   color: black; }
 
-#contact-a input:focus {
+#contact-a input:focus,
+#contact-a .text-input:focus {
   outline: none;
   border-bottom: 4px solid #e6a904; }
 
