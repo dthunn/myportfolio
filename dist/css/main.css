@@ -240,7 +240,7 @@ img {
       border-color: #e6a904; }
 
 #header-home {
-  background: linear-gradient(to right bottom, rgba(34, 139, 180, 0.8), rgba(2, 65, 124, 0.9)), url("../img/omahaCopy.jpeg") no-repeat center right/cover;
+  background: linear-gradient(to right bottom, rgba(34, 139, 180, 0.8), rgba(2, 65, 124, 0.9)), url("../img/omahaCopySmall.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -253,7 +253,7 @@ img {
       font-weight: 300; }
 
 #header-inner {
-  background: linear-gradient(to right bottom, rgba(34, 139, 180, 0.8), rgba(2, 65, 124, 0.9)), url("../img/omahaCopy.jpeg") no-repeat 50% 30%/cover;
+  background: linear-gradient(to right bottom, rgba(34, 139, 180, 0.8), rgba(2, 65, 124, 0.9)), url("../img/omahaCopySmall.jpg") no-repeat 50% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #e6a904; }
 
